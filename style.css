@@ -1,44 +1,44 @@
-*{
+* {
     margin: 0%;
     padding: 0%;
 }
 
 
-.info{
+.info {
     border-bottom: 1px solid rgb(247, 243, 243);
     background-color: #eee;
     color: #666666;
 }
 
-ul>li{
+ul>li {
     text-decoration: none;
     display: inline;
     margin-left: 19px;
-    
+
 }
 
-ul{
+ul {
     margin-left: 90px;
 }
 
 
-nav{
-    width: 100%;    
+nav {
+    width: 100%;
     display: flex;
     align-items: center;
     padding: 10px 0;
     background-color: #fff;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.1);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .1);
     height: auto;
-    z-index: 1000!important;
+    z-index: 1000 !important;
 }
 
-.logo{
+.logo {
     width: 180px;
     margin-left: 100px;
 }
 
-li>a{
+li>a {
     text-decoration: none;
     color: #000000d9;
     font-family: poppins-regular;
@@ -48,7 +48,7 @@ li>a{
     margin: 2px;
 }
 
-.btn{
+.btn {
     margin: 7px;
     padding: 10px;
     border-radius: 7px;
@@ -56,10 +56,10 @@ li>a{
     color: white;
     border-color: #0d6db7;
     font-size: 12px;
-    
+
 }
 
-.btm{
+.btm {
     margin: 7px;
     padding: 10px;
     border-radius: 7px;
@@ -69,48 +69,93 @@ li>a{
     font-size: 12px;
 }
 
-a:hover{
-    color: #8dc63f;
+a:hover {
+    /* color: #8dc63f; */
+    border-bottom: 1px solid #8dc63f;
+    ;
 }
 
-.text{
+.text {
     padding-top: 100px;
     margin-left: 100px;
     font-family: sans-serif;
     font-weight: bold;
 }
-span{
+
+span {
     color: #8dc63f;
 }
 
-.a1{
+.a1 {
     padding-top: 14px;
     margin-left: 100px;
     font-family: sans-serif;
     font-weight: bold;
 }
 
-.a2{
+.a2 {
     padding-top: 18px;
     margin-left: 80px;
     font-family: sans-serif;
 }
 
-.a3{
+.a3 {
     padding-top: 12px;
     margin-left: 120px;
 }
 
-.bts{
+.bts {
     padding: 14px;
 }
 
 
-.img{
-    float:right;
+.img {
+    float: right;
     display: flex;
     padding-bottom: 90px;
     margin-top: -300px;
     height: 500px;
-    margin-left: 30px;
+    margin-right: 110px;
+}
+
+.heading {
+    margin-top: 300px;
+    text-align: center;
+    font-weight: 600px;
+    font-family: sans-serif;
+}
+
+.logobox {
+    margin-top: 80px;
+}
+
+.box {
+    width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.card {
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    margin-left: 60px;
+
+}
+
+.box1 {
+    width: 70%;
+    border-radius: 20px;
+}
+
+
+.box2 {
+    width: 70%;
+    border-radius: 20px;
+}
+
+
+.box3 {
+    width: 70%;
+    border-radius: 20px;
 }
