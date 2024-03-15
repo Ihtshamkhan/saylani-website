@@ -159,3 +159,8 @@ span {
     width: 70%;
     border-radius: 20px;
 }
+
+.card3 p{
+    margin-top: -60px;
+    color: #8dc63f;
+}
